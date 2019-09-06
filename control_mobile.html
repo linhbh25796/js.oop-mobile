@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile</title>
+</head>
+<body>
+
+<div id="nokia">
+    <div><span><p>Nokia</p></span>
+        <textarea id="screenNokia" cols="100" rows="5" placeholder="Screen" readonly></textarea>
+
+    </div>
+    <div id="nokiaMethod">
+        <button id="powerBtnNokia" onclick="onOff(nokia)">On</button>
+        <button onclick="checkStatus(nokia)">Status</button>
+        <button onclick="typingMessage(nokia)">Texting</button>
+        <button onclick="sendMassage(nokia)">Send</button>
+        <button onclick="back(nokia)">Back</button>
+        <button onclick="checkInbox(nokia)">Inbox</button>
+        <button onclick="checkOutbox(nokia)">Outbox</button>
+    </div>
+</div>
+
+
+<div id="iphone">
+    <div>
+
+        <legend>Iphone</legend>
+        <textarea id="screenIphone" placeholder="Screen" readonly cols="100" rows="5"></textarea>
+
+    </div>
+    <div id="methodIphone">
+        <button id="powerBtnIphone" onclick="onOff(iphone)">On</button>
+        <button onclick="checkStatus(iphone)">Status</button>
+        <button onclick="typingMessage(iphone)">Texting</button>
+        <button onclick="sendMassage(iphone)">Send</button>
+        <button onclick="back(iphone)">Back</button>
+        <button onclick="checkInbox(iphone)">Inbox</button>
+        <button onclick="checkOutbox(iphone)">Outbox</button>
+    </div>
+
+</div>
+
+<script src="mobile.js"></script>
+</body>
+</html>
